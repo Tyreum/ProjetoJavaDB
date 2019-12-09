@@ -12,8 +12,8 @@ public class Conexao {
 
             String url = "";
 
-            url += "jdbc:mysql//127.0.0.1:3307/estacionamento?";
-            url += "user=root&password=etecia";
+            url += "jdbc:mysql://127.0.0.1/estacionamento?";
+            url += "user=root&password=killmeplzA1#@";
 
             con = DriverManager.getConnection(url);
             
